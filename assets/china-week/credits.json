@@ -1,0 +1,71 @@
+{
+  "license": "The Metropolitan Museum of Art Open Access images, public domain / CC0",
+  "objects": [
+    {
+      "objectID": 42035,
+      "title": "Oracle bone fragment",
+      "objectDate": "",
+      "medium": "Inscribed bone",
+      "creditLine": "Gift of A. W. Bahr, 1923",
+      "accessionNumber": "23.23.4",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/42035",
+      "isPublicDomain": true,
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/LC-23_23_4_002.jpg"
+    },
+    {
+      "objectID": 53947,
+      "title": "Lobed Tripod Cauldron (Liding)",
+      "objectDate": "12th–11th century BCE",
+      "medium": "Bronze",
+      "creditLine": "Gift of Mrs. John Marriott, Mrs. John Barry Ryan, Gilbert W. Kahn, and Roger Wolfe Kahn, 1949",
+      "accessionNumber": "49.136.5",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/53947",
+      "isPublicDomain": true,
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP140716.jpg"
+    },
+    {
+      "objectID": 51229,
+      "title": "Model of a granary",
+      "objectDate": "1st–2nd century",
+      "medium": "Earthenware with green lead glaze",
+      "creditLine": "Gift of Mr. and Mrs. Samuel Colman, 1893",
+      "accessionNumber": "93.1.247",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/51229",
+      "isPublicDomain": true,
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/40798.jpg"
+    },
+    {
+      "objectID": 42733,
+      "title": "Buddha Maitreya (Mile)",
+      "objectDate": "dated 486 (10th year of Taihe reign)",
+      "medium": "Gilt bronze with traces of pigment; piece-mold cast",
+      "creditLine": "John Stewart Kennedy Fund, 1926",
+      "accessionNumber": "26.123",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/42733",
+      "isPublicDomain": true,
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP170102.jpg"
+    },
+    {
+      "objectID": 61420,
+      "title": "Mirror",
+      "objectDate": "",
+      "medium": "Cast bronze",
+      "creditLine": "Bequest of Ann Eden Woodward (Mrs. William Woodward Jr.), 1975",
+      "accessionNumber": "1978.264.10",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/61420",
+      "isPublicDomain": true,
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/LC-1978_264_10_at-001.jpg"
+    },
+    {
+      "objectID": 44410,
+      "title": "Horse and cavalry rider",
+      "objectDate": "",
+      "medium": "Earthenware with pigment",
+      "creditLine": "Charlotte C. and John C. Weber Collection, Gift of Charlotte C. and John C. Weber, 1994",
+      "accessionNumber": "1994.605.110a, b",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/44410",
+      "isPublicDomain": true,
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/LC-1994_605_110ab_001.jpg"
+    }
+  ]
+}
