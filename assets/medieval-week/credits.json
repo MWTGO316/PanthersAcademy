@@ -1,0 +1,45 @@
+{
+  "license": "Metropolitan Museum Open Access / CC0",
+  "objects": [
+    {
+      "objectID": 477845,
+      "title": "William I Penny",
+      "objectDate": "1066",
+      "medium": "Silver",
+      "creditLine": "Gift of Assunta Sommella Peluso, Ignazio Peluso, Ada Peluso and Romano I. Peluso, 2007",
+      "accessionNumber": "2007.245.1",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/477845",
+      "isPublicDomain": true
+    },
+    {
+      "objectID": 468920,
+      "title": "Key",
+      "objectDate": "14th century",
+      "medium": "Iron",
+      "creditLine": "Gift of Henry G. Marquand, 1887",
+      "accessionNumber": "87.11.95",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/468920",
+      "isPublicDomain": true
+    },
+    {
+      "objectID": 671535,
+      "title": "Jug",
+      "objectDate": "late 14th\u2013early 15th century",
+      "medium": "Stoneware",
+      "creditLine": "Robert A. Ellison Jr. Collection, Gift of Robert A. Ellison Jr., 2014",
+      "accessionNumber": "2014.728",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/671535",
+      "isPublicDomain": true
+    },
+    {
+      "objectID": 473470,
+      "title": "Pilgrim's Badge of the Shrine of St. Thomas Becket at Canterbury",
+      "objectDate": "1350\u20131400",
+      "medium": "Cast tin-lead alloy",
+      "creditLine": "Gift of Dr. and Mrs. W. Conte, 2001",
+      "accessionNumber": "2001.310",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/473470",
+      "isPublicDomain": true
+    }
+  ]
+}
