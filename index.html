@@ -60,10 +60,10 @@ function vShuffle(a){let b=[...a];for(let i=b.length-1;i>0;i--){let j=Math.floor
 let vChosen=null,vNotice='',vAttempt=null;
 function vAnswer(k,v){vState().answers[k]=v;delete vState().passed[k];if(k.startsWith('e'))delete vState().passed['p'+k.slice(1)];vNotice='';vSave()}
 function vSelect(k){vAnswer(k,$('v-'+k).value)}
-function vText(k){vState().notes[k]=$('v-'+k).value;delete vState().passed[k];vSave()}
+function vText(k){vState().notes[k]=$('vn-'+k).value;delete vState().passed[k];vSave()}
 function vPass(k,ok){if(ok)vState().passed[k]=true;else delete vState().passed[k];vSave();return ok}
 function vTask(k,prompt,options){let value=vState().answers[k]??'';return `<label class="label" for="v-${k}">${prompt}</label><select id="v-${k}" onchange="vSelect('${k}')"><option value="">Choose…</option>${options.map(a=>`<option value="${esc(a)}" ${value===a?'selected':''}>${esc(a)}</option>`).join('')}</select>${vState().passed[k]?'<span class="tiny">✓ Verified</span>':''}`}
-function vNote(k,label){return `<label class="label" for="v-${k}">${label}</label><textarea id="v-${k}" oninput="vText('${k}')">${esc(vState().notes[k]||'')}</textarea>`}
+function vNote(k,label){return `<label class="label" for="vn-${k}">${label}</label><textarea id="vn-${k}" oninput="vText('${k}')">${esc(vState().notes[k]||'')}</textarea>`}
 function vCounts(){let p=vState().passed;return [true,V2.match.every((_,i)=>p['m'+i]&&p['s'+i]),V2.pictures.every((_,i)=>p['p'+i]),V2.bank.every((_,i)=>p['b'+i])&&V2.recall.every((_,i)=>p['r'+i]),V2.scenarios.every((_,i)=>p['a'+i]),V2.mistakes.every((_,i)=>p['f'+i]),Object.values(vState().journal).filter(x=>(x.d||'').trim().length>=12&&(x.s||'').trim().length>=30).length>=4]}
 function vCheck(section){let count=0,total=0,a=vState().answers;
  const check=(key,ok)=>{total++;if(vPass(key,ok))count++};
