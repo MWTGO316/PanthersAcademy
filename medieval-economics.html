@@ -75,4 +75,4 @@ vQuizPick=function(i){if(!vAttempt)return;vPickByText(vAttempt.q[vAttempt.at].op
 function vComplete(){if(!vAttempt||vAttempt.at<16||!vCounts().slice(1).every(Boolean))return;let n=vAttempt.q.filter((x,i)=>x.answer===vAttempt.answers[i]).length;if(n<14)return;vState().complete=true;complete();vNotice='Vocabulary mastered! Day 2 is unlocked in Your week. Export your work for Google Classroom anytime.';render()}
 
 
-</script><script src="medieval-days-2-5.js?v=1"></script></body></html>
+</script><script src="medieval-days-2-5.js?v=2"></script></body></html>
